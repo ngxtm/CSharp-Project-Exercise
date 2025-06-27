@@ -50,6 +50,19 @@ namespace ResearchProjectManagement_SE196686
 
         private void dgResearch_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (dgResearch.SelectedItem is ResearchProject project)
+            {
+                AutoFillInUpdateBox(project);
+            }
+            else
+            {
+                txtTitle.Clear();
+                txtField.Clear();
+                dpStart.SelectedDate = null;
+                dpEnd.SelectedDate = null;
+                cbResearcher.SelectedItem = null;
+                txtBudget.Clear();
+            }
         }
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
@@ -114,7 +127,61 @@ namespace ResearchProjectManagement_SE196686
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
+            if (!IsAdminOrManager)
+            {
+                MessageBox.Show("You have no permission to access this function!");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtTitle.Text) ||
+                string.IsNullOrWhiteSpace(txtField.Text) ||
+                !dpStart.SelectedDate.HasValue ||
+                !dpEnd.SelectedDate.HasValue ||
+                cbResearcher.SelectedItem == null ||
+                string.IsNullOrWhiteSpace(txtBudget.Text))
+            {
+                MessageBox.Show("All fields are required.");
+                return;
+            }
+            if (dpStart.SelectedDate.Value >= dpEnd.SelectedDate.Value)
+            {
+                MessageBox.Show("StartDate must be earlier than EndDate.");
+                return;
+            }
+            string title = txtTitle.Text.Trim();
+            if (title.Length <= 5 || title.Length >= 100 ||
+                !System.Text.RegularExpressions.Regex.IsMatch(title, @"^([A-Z1-9][A-Za-z0-9]*)( [A-Z1-9][A-Za-z0-9]*)*$"))
+            {
+                MessageBox.Show("ProjectTitle must be between 5 and 100 characters. Each word in the ProjectTitle must start with a capital letter or a digit (1-9). ProjectTitle cannot contain special characters such as $,%,^, @.");
+                return;
+            }
+            if (dgResearch.SelectedItem is ResearchProject project)
+            {
+                try
+                {
+                    project.ProjectTitle = txtTitle.Text;
+                    project.ResearchField = txtField.Text;
+                    project.StartDate = DateOnly.FromDateTime(dpStart.SelectedDate ?? DateTime.Today);
+                    project.EndDate = DateOnly.FromDateTime(dpEnd.SelectedDate ?? DateTime.Today);
+                    project.LeadResearcherId = (int?)cbResearcher.SelectedValue;
+                    project.Budget = decimal.Parse(txtBudget.Text);
+                    _researchProjectService.UpdateResearchProject(project);
+                    LoadResearchProject();
+                } catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while updating the project: {ex.Message}");
+                    return;
+                }
+            }
+        }
 
+        private void AutoFillInUpdateBox(ResearchProject project)
+        {
+            txtTitle.Text = project.ProjectTitle;
+            txtField.Text = project.ResearchField;
+            dpStart.SelectedDate = project.StartDate.ToDateTime(TimeOnly.MinValue);
+            dpEnd.SelectedDate = project.EndDate.ToDateTime(TimeOnly.MinValue);
+            cbResearcher.SelectedValue = project.LeadResearcherId;
+            txtBudget.Text = project.Budget.ToString();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)

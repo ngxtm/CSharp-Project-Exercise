@@ -51,5 +51,11 @@ namespace DAL.Repositories
             _db.ResearchProjects.Add(project);
             _db.SaveChanges();
         }
+
+        public void UpdateResearchProject(ResearchProject project)
+        {
+            _db.ResearchProjects.Update(project);
+            _db.SaveChanges();
+        }
     }
 }

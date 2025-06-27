@@ -42,5 +42,10 @@ namespace BLL.Services
         {
             _researchProjectRepository.AddResearchProject(project);
         }
+
+        public void UpdateResearchProject(ResearchProject project)
+        {
+            _researchProjectRepository.UpdateResearchProject(project);
+        }
     }
 }

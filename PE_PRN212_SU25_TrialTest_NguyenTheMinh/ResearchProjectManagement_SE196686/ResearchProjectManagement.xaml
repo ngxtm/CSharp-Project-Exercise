@@ -10,7 +10,7 @@
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,10,0,10">
             <TextBox x:Name="txtSearch" Width="200" Margin="0,0,10,0"/>
             <Button x:Name="btnSearch" Content="Search" Click="btnSearch_Click" Margin="0,0,10,0"/>
-            <Button x:Name="btnView" Content="View Detail" Click="btnView_Click" Margin="0,0,10,0"/>
+            <!--<Button x:Name="btnView" Content="View Detail" Click="btnView_Click" Margin="0,0,10,0"/>-->
             <Button x:Name="btnAdd" Content="Add" Click="btnAdd_Click" Margin="0,0,10,0"/>
             <Button x:Name="btnUpdate" Content="Update" Click="btnUpdate_Click" Margin="0,0,10,0"/>
             <Button x:Name="btnDelete" Content="Delete" Click="btnDelete_Click"/>
@@ -41,10 +41,10 @@
             <Label Content="Budget" Grid.Row="5" Grid.Column="0"/>
             <TextBox x:Name="txtBudget" Grid.Row="5" Grid.Column="1"/>
         </Grid>
-        <DataGrid x:Name="dgResearch" DockPanel.Dock="Bottom" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="dgResearch_SelectionChanged">
+        <DataGrid x:Name="dgResearch" DockPanel.Dock="Bottom" IsReadOnly="True" AreRowDetailsFrozen="True" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="dgResearch_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ProjectId" Binding="{Binding ProjectId}" Width="60"/>
-                <DataGridTextColumn Header="ProjectTitle" Binding="{Binding ProjectTitle}" Width="150"/>
+                <DataGridTextColumn Header="ProjectTitle" Binding="{Binding ProjectTitle}" Width="200"/>
                 <DataGridTextColumn Header="ResearchField" Binding="{Binding ResearchField}" Width="100"/>
                 <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" Width="90"/>
                 <DataGridTextColumn Header="EndDate" Binding="{Binding EndDate}" Width="90"/>
