@@ -1,0 +1,41 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+# from all C# projects contained in this repository.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop/Xamarin Studio user settings
+*.userprefs
+
+# Visual Studio working directory
+.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+
+# MSTest, NUnit, xUnit test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Rider project settings
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# Other files
+*.tmp
+*.tmp_proj
+*.log
+
+# Backup files
+*~
