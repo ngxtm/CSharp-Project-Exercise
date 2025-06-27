@@ -1,0 +1,22 @@
+﻿<Application x:Class="ResearchProjectManagement_SE196686.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ResearchProjectManagement_SE196686"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#FF6B705C"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontFamily" Value="24"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#FFFFF8EB"/>
+            <Setter Property="Height" Value="32"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="Background" Value="#FFB38B82"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </Application.Resources>
+</Application>

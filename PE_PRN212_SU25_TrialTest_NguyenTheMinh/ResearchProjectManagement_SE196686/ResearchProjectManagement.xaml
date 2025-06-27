@@ -1,0 +1,23 @@
+﻿<Window x:Class="CompanyMangement_SE196686.ResearchProjectManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompanyMangement_SE196686"
+        mc:Ignorable="d"
+        Title="ResearchProjectManagement" Height="450" Width="800">
+    <StackPanel>
+        <DataGrid x:Name="dgResearch" AutoGenerateColumns="False"  SelectionChanged="dgResearch_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ProjectId" Width="30" Binding="{Binding ProjectId}"/>
+                <DataGridTextColumn Header="ProjectTitle" Width="30" Binding="{Binding ProjectTitle}"/>
+                <DataGridTextColumn Header="ResearchField" Width="*" Binding="{Binding ResearchField}"/>
+                <DataGridTextColumn Header="StartDate" Width="30" Binding="{Binding StartDate}"/>
+                <DataGridTextColumn Header="EndDate" Width="30" Binding="{Binding EndDate}"/>
+                <DataGridTextColumn Header="LeadResearcherID" Width="30" Binding="{Binding LeadResearcherID}"/>
+                <DataGridTextColumn Header="FullName" Width="30" Binding="{Binding ResearcherId.FullName}"/>
+                <DataGridTextColumn Header="Budget" Width="30" Binding="{Binding Budget}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\DAL.dll
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\ref\BLL.dll
