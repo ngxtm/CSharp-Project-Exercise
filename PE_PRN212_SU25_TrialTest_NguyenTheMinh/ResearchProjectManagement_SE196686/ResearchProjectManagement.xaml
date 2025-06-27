@@ -1,4 +1,4 @@
-﻿<Window x:Class="CompanyMangement_SE196686.ResearchProjectManagement"
+﻿<Window x:Class="ResearchProjectManagement_SE196686.ResearchProjectManagement"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,18 +6,52 @@
         xmlns:local="clr-namespace:CompanyMangement_SE196686"
         mc:Ignorable="d"
         Title="ResearchProjectManagement" Height="450" Width="800">
-    <StackPanel>
-        <DataGrid x:Name="dgResearch" AutoGenerateColumns="False"  SelectionChanged="dgResearch_SelectionChanged">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,10,0,10">
+            <TextBox x:Name="txtSearch" Width="200" Margin="0,0,10,0"/>
+            <Button x:Name="btnSearch" Content="Search" Click="btnSearch_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnView" Content="View Detail" Click="btnView_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnAdd" Content="Add" Click="btnAdd_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnUpdate" Content="Update" Click="btnUpdate_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnDelete" Content="Delete" Click="btnDelete_Click"/>
+        </StackPanel>
+        <Grid DockPanel.Dock="Top" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Title" Grid.Row="0" Grid.Column="0"/>
+            <TextBox x:Name="txtTitle" Grid.Row="0" Grid.Column="1"/>
+            <Label Content="Field" Grid.Row="1" Grid.Column="0"/>
+            <TextBox x:Name="txtField" Grid.Row="1" Grid.Column="1"/>
+            <Label Content="Start" Grid.Row="2" Grid.Column="0"/>
+            <DatePicker x:Name="dpStart" Grid.Row="2" Grid.Column="1"/>
+            <Label Content="End" Grid.Row="3" Grid.Column="0"/>
+            <DatePicker x:Name="dpEnd" Grid.Row="3" Grid.Column="1"/>
+            <Label Content="Lead Researcher" Grid.Row="4" Grid.Column="0"/>
+            <ComboBox x:Name="cbResearcher" Grid.Row="4" Grid.Column="1" DisplayMemberPath="FullName" SelectedValuePath="ResearcherId"/>
+            <Label Content="Budget" Grid.Row="5" Grid.Column="0"/>
+            <TextBox x:Name="txtBudget" Grid.Row="5" Grid.Column="1"/>
+        </Grid>
+        <DataGrid x:Name="dgResearch" DockPanel.Dock="Bottom" AutoGenerateColumns="False"  SelectionChanged="dgResearch_SelectionChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ProjectId" Width="30" Binding="{Binding ProjectId}"/>
-                <DataGridTextColumn Header="ProjectTitle" Width="30" Binding="{Binding ProjectTitle}"/>
-                <DataGridTextColumn Header="ResearchField" Width="*" Binding="{Binding ResearchField}"/>
-                <DataGridTextColumn Header="StartDate" Width="30" Binding="{Binding StartDate}"/>
-                <DataGridTextColumn Header="EndDate" Width="30" Binding="{Binding EndDate}"/>
-                <DataGridTextColumn Header="LeadResearcherID" Width="30" Binding="{Binding LeadResearcherID}"/>
-                <DataGridTextColumn Header="FullName" Width="30" Binding="{Binding ResearcherId.FullName}"/>
-                <DataGridTextColumn Header="Budget" Width="30" Binding="{Binding Budget}"/>
+                <DataGridTextColumn Header="ProjectId" Binding="{Binding ProjectId}" Width="60"/>
+                <DataGridTextColumn Header="ProjectTitle" Binding="{Binding ProjectTitle}" Width="150"/>
+                <DataGridTextColumn Header="ResearchField" Binding="{Binding ResearchField}" Width="100"/>
+                <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" Width="90"/>
+                <DataGridTextColumn Header="EndDate" Binding="{Binding EndDate}" Width="90"/>
+                <DataGridTextColumn Header="Lead ID" Binding="{Binding LeadResearcherId}" Width="60"/>
+                <DataGridTextColumn Header="Lead Name" Binding="{Binding LeadResearcher.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Budget" Binding="{Binding Budget}" Width="80"/>
             </DataGrid.Columns>
         </DataGrid>
-    </StackPanel>
+    </DockPanel>
 </Window>

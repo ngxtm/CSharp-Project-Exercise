@@ -1,6 +1,7 @@
 ﻿using DAL.Entities;
 using DAL.Repositories;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,11 @@ namespace BLL.Services
         public List<ResearchProject> GetResearchProjects()
         {
             return _researchProjectRepository.GetResearchProject();
+        }
+
+        public IEnumerable SearchProject(string keyword)
+        {
+            return _researchProjectRepository.SearchProject(keyword);
         }
     }
 }

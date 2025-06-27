@@ -1,6 +1,7 @@
 ﻿using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,13 @@ namespace DAL.Repositories
         {
             var researchList = _db.ResearchProjects.Include(x => x.LeadResearcher).ToList();
             return researchList;
+        }
+
+        public IEnumerable SearchProject(string keyword)
+        {
+            return _db.ResearchProjects
+                .Where(p => p.ProjectTitle.Contains(keyword) || p.ResearchField.Contains(keyword))
+                .ToList();
         }
     }
 }

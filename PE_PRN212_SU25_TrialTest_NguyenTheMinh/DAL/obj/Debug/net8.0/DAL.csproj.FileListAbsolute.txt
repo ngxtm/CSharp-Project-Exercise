@@ -12,3 +12,18 @@ C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj
 C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\Minh\Downloads\Documents\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\bin\Debug\net8.0\DAL.dll
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.dll
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\DAL\obj\Debug\net8.0\ref\DAL.dll

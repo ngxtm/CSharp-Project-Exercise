@@ -35,15 +35,15 @@ namespace ResearchProjectManagement_SE196686
             var account = _userAccountService.GetAccountByEmail(email, password);
             if (account != null)
             {
-                if (account.Role != 4)
+                if (account.Role != (int)DAL.Entities.UserRole.Member)
                 {
-                    ResearchProjectManagement researchWindow = new ResearchProjectManagement();
+                    ResearchProjectManagement researchWindow = new ResearchProjectManagement(account);
                     researchWindow.Show();
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("You have no permission to this function!");
+                    MessageBox.Show("You have no permission to access this function!");
                 }
             }
             else
