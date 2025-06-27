@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNfc8Xlfuwg=",
+  "dgSpecHash": "BxeimQ3/d1Q=",
   "success": true,
-  "projectFilePath": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Minh\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Minh\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

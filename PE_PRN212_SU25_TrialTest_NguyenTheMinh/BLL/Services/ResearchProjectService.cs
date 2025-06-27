@@ -17,6 +17,12 @@ namespace BLL.Services
         {
             this._researchProjectRepository = new ResearchProjectRepository();
         }
+
+        public void DeleteResearchProject(int id)
+        {
+            _researchProjectRepository.DeleteResearchProject(id);
+        }
+
         public List<ResearchProject> GetResearchProjects()
         {
             return _researchProjectRepository.GetResearchProject();
@@ -25,6 +31,16 @@ namespace BLL.Services
         public IEnumerable SearchProject(string keyword)
         {
             return _researchProjectRepository.SearchProject(keyword);
+        }
+
+        public int GetNextReSearchProjectId()
+        {
+            return _researchProjectRepository.GetNextResearchProjectId();
+        }
+
+        public void AddResearchProject(ResearchProject project)
+        {
+            _researchProjectRepository.AddResearchProject(project);
         }
     }
 }

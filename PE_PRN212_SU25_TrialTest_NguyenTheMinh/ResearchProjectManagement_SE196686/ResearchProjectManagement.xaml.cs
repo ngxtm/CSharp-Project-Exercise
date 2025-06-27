@@ -57,6 +57,7 @@ namespace ResearchProjectManagement_SE196686
             if (!HasReadAccess)
             {
                 MessageBox.Show("You have no permission to access this function!");
+                return;
             }
             string keyword = txtSearch.Text ?? string.Empty;
             dgResearch.ItemsSource = _researchProjectService.SearchProject(keyword);
@@ -69,7 +70,46 @@ namespace ResearchProjectManagement_SE196686
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
+            if (!IsAdminOrManager)
+            {
+                MessageBox.Show("You have no permission to access this function!");
+                return;
+            }
 
+            if (string.IsNullOrWhiteSpace(txtTitle.Text) ||
+                string.IsNullOrWhiteSpace(txtField.Text) ||
+                !dpStart.SelectedDate.HasValue ||
+                !dpEnd.SelectedDate.HasValue ||
+                cbResearcher.SelectedItem == null ||
+                string.IsNullOrWhiteSpace(txtBudget.Text))
+            {
+                MessageBox.Show("All fields are required.");
+                return;
+            }
+            if (dpStart.SelectedDate.Value >= dpEnd.SelectedDate.Value)
+            {
+                MessageBox.Show("StartDate must be earlier than EndDate.");
+                return;
+            }
+            string title = txtTitle.Text.Trim();
+            if (title.Length <= 5 || title.Length >= 100 ||
+                !System.Text.RegularExpressions.Regex.IsMatch(title, @"^([A-Z1-9][A-Za-z0-9]*)( [A-Z1-9][A-Za-z0-9]*)*$"))
+            {
+                MessageBox.Show("ProjectTitle must be between 5 and 100 characters. Each word in the ProjectTitle must start with a capital letter or a digit (1-9). ProjectTitle cannot contain special characters such as $,%,^, @.");
+                return;
+            }
+            var project = new ResearchProject
+            {
+                ProjectId = _researchProjectService.GetNextReSearchProjectId(),
+                ProjectTitle = title,
+                ResearchField = txtField.Text.Trim(),
+                StartDate = DateOnly.FromDateTime(dpStart.SelectedDate.Value),
+                EndDate = DateOnly.FromDateTime(dpEnd.SelectedDate.Value),
+                LeadResearcherId = (int)cbResearcher.SelectedValue,
+                Budget = decimal.TryParse(txtBudget.Text, out decimal budget) ? budget : 0
+            };
+            _researchProjectService.AddResearchProject(project);
+            LoadResearchProject();
         }
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
@@ -79,7 +119,17 @@ namespace ResearchProjectManagement_SE196686
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-
+            if (!IsAdmin)
+            {
+                MessageBox.Show("You have no permission to access this function!");
+                return;
+            }
+            if (dgResearch.SelectedItem is ResearchProject project)
+            {
+                int id = project.ProjectId;
+                _researchProjectService.DeleteResearchProject(id);
+                LoadResearchProject();
+            }
         }
     }
 }

@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\",
+  "WorkspaceRootPath": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D83C0EA-968D-426F-80B4-908ED8275CF9}|DAL\\DAL.csproj|d:\\area\\su25\\prn212\\project\\c# project exercise\\pe_prn212_su25_trialtest_nguyentheminh\\dal\\repositories\\researchprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D83C0EA-968D-426F-80B4-908ED8275CF9}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\researchprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|d:\\area\\su25\\prn212\\project\\c# project exercise\\pe_prn212_su25_trialtest_nguyentheminh\\researchprojectmanagement_se196686\\researchprojectmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|d:\\area\\su25\\prn212\\project\\csharp-project-exercise\\pe_prn212_su25_trialtest_nguyentheminh\\researchprojectmanagement_se196686\\researchprojectmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|solutionrelative:researchprojectmanagement_se196686\\researchprojectmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABC4B8E-8B24-42EB-BBF6-746D73D98FA5}|BLL\\BLL.csproj|d:\\area\\su25\\prn212\\project\\c# project exercise\\pe_prn212_su25_trialtest_nguyentheminh\\bll\\services\\researchprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|d:\\area\\su25\\prn212\\project\\csharp-project-exercise\\pe_prn212_su25_trialtest_nguyentheminh\\researchprojectmanagement_se196686\\researchprojectmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|solutionrelative:researchprojectmanagement_se196686\\researchprojectmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABC4B8E-8B24-42EB-BBF6-746D73D98FA5}|BLL\\BLL.csproj|d:\\area\\su25\\prn212\\project\\csharp-project-exercise\\pe_prn212_su25_trialtest_nguyentheminh\\bll\\services\\researchprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ABC4B8E-8B24-42EB-BBF6-746D73D98FA5}|BLL\\BLL.csproj|solutionrelative:bll\\services\\researchprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|d:\\area\\su25\\prn212\\project\\c# project exercise\\pe_prn212_su25_trialtest_nguyentheminh\\researchprojectmanagement_se196686\\researchprojectmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{08802C89-8B98-4979-B75C-AFE5113E3D47}|ResearchProjectManagement_SE196686\\ResearchProjectManagement_SE196686.csproj|solutionrelative:researchprojectmanagement_se196686\\researchprojectmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7D83C0EA-968D-426F-80B4-908ED8275CF9}|DAL\\DAL.csproj|d:\\area\\su25\\prn212\\project\\csharp-project-exercise\\pe_prn212_su25_trialtest_nguyentheminh\\dal\\repositories\\researchprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D83C0EA-968D-426F-80B4-908ED8275CF9}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\researchprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ResearchProjectRepository.cs",
-              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\Repositories\\ResearchProjectRepository.cs",
+              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\Repositories\\ResearchProjectRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\ResearchProjectRepository.cs",
-              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\Repositories\\ResearchProjectRepository.cs",
+              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\DAL\\Repositories\\ResearchProjectRepository.cs",
               "RelativeToolTip": "DAL\\Repositories\\ResearchProjectRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADgvx0AAABiAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAMwDMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T06:30:58.446Z",
               "EditorCaption": ""
@@ -45,22 +49,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ResearchProjectService.cs",
-              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\BLL\\Services\\ResearchProjectService.cs",
+              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\BLL\\Services\\ResearchProjectService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ResearchProjectService.cs",
-              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\BLL\\Services\\ResearchProjectService.cs",
+              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\BLL\\Services\\ResearchProjectService.cs",
               "RelativeToolTip": "BLL\\Services\\ResearchProjectService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T06:30:30.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResearchProjectManagement.xaml",
-              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
+              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
               "RelativeDocumentMoniker": "ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
-              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
+              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
               "RelativeToolTip": "ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-27T06:21:14.913Z",
@@ -68,16 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ResearchProjectManagement.xaml.cs",
-              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
               "RelativeDocumentMoniker": "ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
-              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\C# Project Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
+              "ToolTip": "D:\\Area\\SU25\\PRN212\\Project\\CSharp-Project-Exercise\\PE_PRN212_SU25_TrialTest_NguyenTheMinh\\ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
               "RelativeToolTip": "ResearchProjectManagement_SE196686\\ResearchProjectManagement.xaml.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowDkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwG4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T06:20:19.918Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

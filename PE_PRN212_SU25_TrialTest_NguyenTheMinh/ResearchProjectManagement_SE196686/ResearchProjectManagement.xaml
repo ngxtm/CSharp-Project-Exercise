@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CompanyMangement_SE196686"
+        xmlns:local="clr-namespace:ResearchProjectManagement_SE196686"
         mc:Ignorable="d"
         Title="ResearchProjectManagement" Height="450" Width="800">
     <DockPanel>
@@ -41,7 +41,7 @@
             <Label Content="Budget" Grid.Row="5" Grid.Column="0"/>
             <TextBox x:Name="txtBudget" Grid.Row="5" Grid.Column="1"/>
         </Grid>
-        <DataGrid x:Name="dgResearch" DockPanel.Dock="Bottom" AutoGenerateColumns="False"  SelectionChanged="dgResearch_SelectionChanged">
+        <DataGrid x:Name="dgResearch" DockPanel.Dock="Bottom" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="dgResearch_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ProjectId" Binding="{Binding ProjectId}" Width="60"/>
                 <DataGridTextColumn Header="ProjectTitle" Binding="{Binding ProjectTitle}" Width="150"/>

@@ -17,6 +17,16 @@ namespace DAL.Repositories
             this._db = new Su25researchDbContext();
         }
 
+        public void DeleteResearchProject(int id)
+        {
+            var project = _db.ResearchProjects.Where(x => x.ProjectId == id);
+            if (project.Any())
+            {
+                _db.ResearchProjects.Remove(project.First());
+                _db.SaveChanges();
+            }
+        }
+
         public List<ResearchProject> GetResearchProject()
         {
             var researchList = _db.ResearchProjects.Include(x => x.LeadResearcher).ToList();
@@ -28,6 +38,18 @@ namespace DAL.Repositories
             return _db.ResearchProjects
                 .Where(p => p.ProjectTitle.Contains(keyword) || p.ResearchField.Contains(keyword))
                 .ToList();
+        }
+
+        public int GetNextResearchProjectId()
+        {
+            if (!_db.ResearchProjects.Any()) return 1;
+            return _db.ResearchProjects.Max(p => p.ProjectId) + 1;
+        }
+
+        public void AddResearchProject(ResearchProject project)
+        {
+            _db.ResearchProjects.Add(project);
+            _db.SaveChanges();
         }
     }
 }
