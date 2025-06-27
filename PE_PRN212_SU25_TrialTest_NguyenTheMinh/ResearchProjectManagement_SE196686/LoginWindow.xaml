@@ -6,6 +6,22 @@
         xmlns:local="clr-namespace:ResearchProjectManagement_SE196686"
         mc:Ignorable="d"
         Title="Login Window SU 2025" Height="400" Width="700" FontFamily="Tahoma" FontSize="26" Background="#FFF5F5DC" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Foreground" Value="#FF6B705C"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Background" Value="#FFFFF8EB"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="Background" Value="#FFB38B82"/>
+        </Style>
+    </Window.Resources>
     <StackPanel>
         <Label Content="Email"/>
         <TextBox x:Name="txtEmail"/>

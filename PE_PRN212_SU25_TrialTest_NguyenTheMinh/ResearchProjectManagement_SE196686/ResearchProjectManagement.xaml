@@ -5,7 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ResearchProjectManagement_SE196686"
         mc:Ignorable="d"
-        Title="ResearchProjectManagement" Height="450" Width="800">
+        Title="Research Project Management - SU 2025" Height="500" Width="800" FontFamily="Tahoma" FontSize="13" Background="#FFF5F5DC" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="#FF6B705C"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="14"/>
+            <Setter Property="Background" Value="#FFFFF8EB"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="Background" Value="#FFB38B82"/>
+        </Style>
+    </Window.Resources>
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,10,0,10">
             <TextBox x:Name="txtSearch" Width="200" Margin="0,0,10,0"/>

@@ -7,16 +7,13 @@
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="#FF6B705C"/>
             <Setter Property="FontFamily" Value="Arial"/>
-            <Setter Property="FontFamily" Value="24"/>
         </Style>
         <Style TargetType="TextBox">
             <Setter Property="Background" Value="#FFFFF8EB"/>
-            <Setter Property="Height" Value="32"/>
         </Style>
         <Style TargetType="Button">
             <Setter Property="Foreground" Value="#FFFFFFFF"/>
             <Setter Property="Background" Value="#FFB38B82"/>
-            <Setter Property="Padding" Value="10"/>
         </Style>
     </Application.Resources>
 </Application>
