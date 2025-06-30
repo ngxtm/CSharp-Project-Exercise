@@ -30,7 +30,7 @@ namespace ResearchProjectManagement_SE196686
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             string email = txtEmail.Text;
-            string password = txtPassword.Text;
+            string password = pbPassword.Password;
             var account = _userAccountService.GetAccountByEmail(email, password);
             if (account != null)
             {
