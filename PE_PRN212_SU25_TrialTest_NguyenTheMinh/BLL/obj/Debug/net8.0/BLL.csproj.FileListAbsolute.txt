@@ -29,19 +29,3 @@ D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenT
 D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.pdb
 D:\Area\SU25\PRN212\Project\C# Project Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\ref\BLL.dll
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.deps.json
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.dll
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\BLL.pdb
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\DAL.dll
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\bin\Debug\net8.0\DAL.pdb
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.sourcelink.json
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.dll
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\refint\BLL.dll
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\BLL.pdb
-D:\Area\SU25\PRN212\Project\CSharp-Project-Exercise\PE_PRN212_SU25_TrialTest_NguyenTheMinh\BLL\obj\Debug\net8.0\ref\BLL.dll

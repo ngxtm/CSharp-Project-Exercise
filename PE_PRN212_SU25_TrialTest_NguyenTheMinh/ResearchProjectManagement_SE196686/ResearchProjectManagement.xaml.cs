@@ -166,7 +166,8 @@ namespace ResearchProjectManagement_SE196686
                     project.Budget = decimal.Parse(txtBudget.Text);
                     _researchProjectService.UpdateResearchProject(project);
                     LoadResearchProject();
-                } catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show($"An error occurred while updating the project: {ex.Message}");
                     return;
@@ -191,12 +192,17 @@ namespace ResearchProjectManagement_SE196686
                 MessageBox.Show("You have no permission to access this function!");
                 return;
             }
-            if (dgResearch.SelectedItem is ResearchProject project)
+            var result = MessageBox.Show("Are you sure you want to delete this project?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            if (result == MessageBoxResult.Yes)
             {
-                int id = project.ProjectId;
-                _researchProjectService.DeleteResearchProject(id);
-                LoadResearchProject();
+                if (dgResearch.SelectedItem is ResearchProject project)
+                {
+                    int id = project.ProjectId;
+                    _researchProjectService.DeleteResearchProject(id);
+                    LoadResearchProject();
+                }
             }
+            
         }
     }
 }
